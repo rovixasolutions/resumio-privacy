@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resumio – Request Data Deletion</title>
+  <style>
+    :root { --blue:#0E6BB8; --dark:#084A82; --text:#0F2438; --muted:#5B7188; --bg:#F4F7FA; --card:#fff; --line:#E2EAF2; --ok:#0B6E4F; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--text); background:var(--bg); line-height:1.65; }
+    header { background:linear-gradient(135deg, var(--dark), var(--blue)); color:#fff; padding:2.2rem 1.25rem; }
+    header h1 { margin:0 0 .4rem; font-size:1.7rem; }
+    header p { margin:0; opacity:.92; }
+    main { max-width:760px; margin:0 auto; padding:1.5rem 1.25rem 3rem; }
+    section { background:var(--card); border-radius:14px; padding:1.15rem 1.2rem; margin-bottom:1rem; border:1px solid var(--line); }
+    h2 { margin:0 0 .6rem; font-size:1.15rem; color:var(--blue); }
+    p, li { color:var(--muted); }
+    ol, ul { padding-left:1.25rem; }
+    ol li, ul li { margin-bottom:.45rem; }
+    a { color:var(--blue); }
+    code { font-size:.9em; background:#E6F2FB; padding:.1rem .35rem; border-radius:4px; }
+    .step-box { border-left:4px solid var(--blue); background:#F0F7FC; padding:.9rem 1rem; border-radius:0 10px 10px 0; margin:.8rem 0; }
+    .btn {
+      display:inline-block; margin-top:.5rem; background:var(--blue); color:#fff !important; text-decoration:none;
+      padding:.75rem 1.1rem; border-radius:10px; font-weight:600;
+    }
+    .btn:hover { background:var(--dark); }
+    .note { font-size:.95rem; }
+    footer { text-align:center; color:var(--muted); font-size:.9rem; padding-bottom:2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Request Data Deletion – Resumio</h1>
+    <p>Resumio by Rovixa Solutions (com.rovixasolutions.resumio)</p>
+    <p>Last updated: 25 November 2026</p>
+  </header>
+  <main>
+    <section>
+      <h2>About this page</h2>
+      <p>
+        This page explains how users of the <strong>Resumio</strong> Android app
+        (developer: <strong>Rovixa Solutions</strong>) can delete data stored on their
+        device and request deletion of any related data processed through Google services
+        used by the app.
+      </p>
+      <p class="note">
+        Resumio does <strong>not</strong> require an account. Resume content is stored
+        <strong>on your device</strong>, not on Rovixa Solutions servers.
+      </p>
+    </section>
+
+    <section>
+      <h2>Steps to delete your data</h2>
+
+      <div class="step-box">
+        <strong>Step 1 — Delete resumes inside the app (recommended first)</strong>
+        <ol>
+          <li>Open <strong>Resumio</strong> on your Android device.</li>
+          <li>On the Home screen, open the resume you want to remove.</li>
+          <li>Tap the <strong>delete</strong> control and confirm.</li>
+          <li>Repeat for every saved resume you want removed.</li>
+        </ol>
+      </div>
+
+      <div class="step-box">
+        <strong>Step 2 — Remove all remaining app data on the device</strong>
+        <ol>
+          <li>Open Android <strong>Settings → Apps → Resumio</strong>.</li>
+          <li>Tap <strong>Storage</strong> (wording may vary by device).</li>
+          <li>Tap <strong>Clear storage / Clear data</strong>, <strong>or</strong> uninstall Resumio.</li>
+        </ol>
+        <p class="note">Clearing data or uninstalling removes local resumes, preferences, exported PDF copies kept in the app folder, and local Premium unlock status on that device.</p>
+      </div>
+
+      <div class="step-box">
+        <strong>Step 3 — Request help from Rovixa Solutions (optional)</strong>
+        <p>If you need confirmation, have questions, or want us to help with a deletion request related to Resumio, email:</p>
+        <p>
+          <a class="btn" href="mailto:rovixasolutions@gmail.com?subject=Resumio%20data%20deletion%20request&amp;body=Please%20help%20with%20my%20Resumio%20data%20deletion%20request.%0A%0AGoogle%20Play%20email%20(optional)%3A%0ADevice%20%2F%20Android%20version%20(optional)%3A%0AWhat%20you%20want%20deleted%3A%0A">
+            Email a deletion request
+          </a>
+        </p>
+        <p class="note">Or write to <a href="mailto:rovixasolutions@gmail.com">rovixasolutions@gmail.com</a> with subject line <strong>Resumio data deletion request</strong>.</p>
+        <p class="note">We aim to respond within <strong>30 days</strong>.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>What is deleted</h2>
+      <ul>
+        <li><strong>Deleted by you on the device:</strong> resume / CV content, drafts, template choices, app preferences, and PDFs stored in the app’s local folder.</li>
+        <li><strong>Deleted when you clear data or uninstall:</strong> all Resumio app storage on that device, including local Premium unlock flags.</li>
+        <li><strong>Not held by Rovixa Solutions as a cloud account profile:</strong> we do not operate a Resumio user account database of your CV content.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What may be kept (and for how long)</h2>
+      <ul>
+        <li><strong>Google Play purchase records:</strong> payment and subscription history is handled by Google Play. Rovixa Solutions does not store your card details. Manage or cancel subscriptions in Google Play → Payments &amp; subscriptions.</li>
+        <li><strong>Google AdMob / Firebase Analytics / Crashlytics:</strong> these Google services may retain advertising identifiers, diagnostic, or aggregated usage data under <a href="https://policies.google.com/privacy" rel="noopener">Google’s Privacy Policy</a>. Rovixa Solutions cannot manually erase Google’s independent retention stores; uninstalling and resetting your advertising ID (Android Settings → Google → Ads) limits further association where applicable.</li>
+        <li><strong>Email correspondence:</strong> if you contact us about deletion, we may keep the request email and our reply for up to <strong>24 months</strong> for compliance / support records, then delete or anonymise it.</li>
+        <li><strong>Android backup / device transfer:</strong> if your phone backs up app data to your Google account or another backup, residual copies may remain until you remove them from that backup service.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>App &amp; developer details</h2>
+      <p>
+        App: <strong>Resumio</strong><br>
+        Package: <code>com.rovixasolutions.resumio</code><br>
+        Developer: <strong>Rovixa Solutions</strong><br>
+        Contact: <a href="mailto:rovixasolutions@gmail.com">rovixasolutions@gmail.com</a><br>
+        Privacy Policy: <a href="../">https://rovixasolutions.github.io/resumio-privacy/</a><br>
+        Play Store: <a href="https://play.google.com/store/apps/details?id=com.rovixasolutions.resumio">Resumio on Google Play</a>
+      </p>
+    </section>
+  </main>
+  <footer>© 2026 Rovixa Solutions. All rights reserved.</footer>
+</body>
+</html>
